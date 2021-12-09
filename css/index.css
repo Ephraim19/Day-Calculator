@@ -1,29 +1,41 @@
 h1 {
-    text-align: center;
-    font-size: larger;
-    font-weight: bolder;
-    color: blue;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  color: blue;
 }
 
 .head {
-    background-color: burlywood;
-    padding: 15px;
+  background-color: burlywood;
+  padding: 15px;
 }
 
 p {
-    font-weight: bold;
-    font-size: 15px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 form {
-    color: blue;
-    text-align: center;
-    font-weight: 900;
+  color: blue;
+  text-align: center;
+  font-weight: 900;
 }
 
-input[type=integer], select {
-    width: 50%;
-    padding: 15px;
-    margin: 8px;
-    border: 1px solid rgb(9, 42, 190);
-  }
+input[type="integer"],
+select {
+  width: 50%;
+  padding: 15px;
+  margin: 8px;
+  border: 1px solid rgb(9, 42, 190);
+}
+
+input[type="button"] {
+  background-color: #0d3ab4;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: 1px solid rgb(9, 42, 190);
+
+}
