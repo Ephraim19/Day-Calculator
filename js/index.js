@@ -3,5 +3,8 @@ input.addEventListener("click", submittedValues, true);
 
 function submittedValues(event) {
   event.preventDefault();
-  alert("eph");
-};
+  let day = document.getElementById("day").value;
+  let month = document.getElementById("month").value;
+  let year = document.getElementById("year").value;
+  alert(day);
+}
