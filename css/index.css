@@ -2,4 +2,14 @@ h1 {
     text-align: center;
     font-size: larger;
     font-weight: bolder;
+    color: blue;
+}
+
+.head {
+    background-color: burlywood;
+    padding: 15px;
+}
+
+p {
+    font-weight: bold;
 }
