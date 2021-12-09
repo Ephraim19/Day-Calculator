@@ -3,10 +3,19 @@ h1 {
   font-size: larger;
   font-weight: bolder;
   color: blue;
+  padding: 5px;
+  font-family: sofia;
+}
+
+h4 {
+  color: blue;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .head {
-  background-color: burlywood;
+  background-color: rgba(255, 255, 0, 0.425);
   padding: 15px;
 }
 
@@ -37,5 +46,4 @@ input[type="button"] {
   padding-bottom: 10px;
   color: white;
   border: 1px solid rgb(9, 42, 190);
-
 }
