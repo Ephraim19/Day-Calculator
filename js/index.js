@@ -17,14 +17,10 @@ function submittedValues(event) {
           'input[name="gender"]:checked'
         ).value;
 
-        var CC = year.slice(0, 2);
-        var YY = year.slice(2, 4);
-        var MM = month;
-        var DD = day;
-        var ans =
-          (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7;
-
-        var answer = parseInt(ans.toFixed());
+        //getting the day of the week
+        var birthDay = new Date(year + '-' + month + '-' + day);
+        var answer = birthDay.getDay();
+       
         var maleNames = [
           "Kwasi",
           "Kwadwo",
